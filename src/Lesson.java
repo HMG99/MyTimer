@@ -23,7 +23,7 @@ public class Lesson {
                 if(j < 10) jStr = 0 + jStr;
                 System.out.println(iStr + ":" + jStr);
                 try {
-                    Thread.sleep(50);
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
